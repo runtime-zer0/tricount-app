@@ -1,12 +1,11 @@
 package runtimezero.tricount.controller;
-
-import com.goorm.tricountapi.dto.BalanceResult;
-import com.goorm.tricountapi.model.ApiResponse;
-import com.goorm.tricountapi.model.Settlement;
-import com.goorm.tricountapi.service.SettlementService;
-import com.goorm.tricountapi.util.MemberContext;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+import runtimezero.tricount.dto.ApiResponse;
+import runtimezero.tricount.dto.BalanceResult;
+import runtimezero.tricount.entity.Settlement;
+import runtimezero.tricount.service.SettlementService;
+import runtimezero.tricount.util.MemberContext;
 
 @RestController
 @RequiredArgsConstructor
